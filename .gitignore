@@ -1,48 +1,66 @@
-# Python
+
 __pycache__/
-*.py[cod]
-*$py.class
-*.so
-*.egg-info/
-*.egg
-dist/
-build/
+!.env.example
+!.env.sample
+.build/
+.DS_Store
 .eggs/
-
-# Virtual environments
-venv/
-env/
-.venv/
-
-# IDE
-.vscode/
+.env
+.env.*
+.env.local
 .idea/
-*.swp
-*.swo
-*~
-
-# Jupyter
 .ipynb_checkpoints/
-
-# Model weights
-weights/
-*.pth
-*.pt
+.swiftpm/
+.venv/
+.vscode/
+*.app
+*.db
+*.db-shm
+*.db-wal
+*.egg
+*.egg-info/
+*.ipa
+*.key
+*.log
 *.onnx
-
+*.pem
+*.pt
+*.pth
+*.py[cod]
+*.pyc
+*.secret
+*.so
+*.sqlite
+*.sqlite3
+*.swo
+*.swp
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+*~
+*$py.class
+# Build
 # Data and outputs
+# Databases
+# Dependencies
+# Environment
+# IDE
+# Jupyter
+# Logs
+# Model weights
+# OS
+# Python
+# Secrets
+# Virtual environments
+build/
+credentials*
 data/
+DerivedData/
+dist/
+env/
+node_modules/
 output/
 results/
-uploads/
-
-# Logs
-*.log
-
-# OS
-.DS_Store
 Thumbs.db
-
-# Environment
-.env
-.env.local
+uploads/
+venv/
+weights/
