@@ -1,6 +1,6 @@
 # Segment Anything Model (SAM) API Service
 
-A production-ready API service for automated image segmentation using [Meta's Segment Anything Model](https://github.com/facebookresearch/segment-anything). Supports point prompts, bounding box prompts, and fully automatic mask generation. Built for practical applications including background removal, object isolation, and annotation generation.
+An API service for automated image segmentation using [Meta's Segment Anything Model](https://github.com/facebookresearch/segment-anything). Supports point prompts, bounding box prompts, and fully automatic mask generation. Built for practical applications including background removal, object isolation, and annotation generation.
 
 ## Features
 
